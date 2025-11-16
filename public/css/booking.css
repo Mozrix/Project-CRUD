@@ -1,0 +1,56 @@
+        body {
+            color: #000;
+            overflow-x: hidden;
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .hour-option {
+            background-color: #ffffff;
+            padding: 10px;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 10px;
+        }
+        .hour-option:hover {
+            background-color: #f8f9fa;
+            border-color: #007bff;
+        }
+        .hour-option.selected {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+        .hour-option.disabled {
+            background-color: #ffe6e6;
+            color: #6c757d;
+            cursor: not-allowed;
+            border-color: #dc3545;
+        }
+        .hour-option.in-range {
+            background-color: #e6f7ff;
+            border-color: #007bff;
+            color: #007bff;
+        }
+        .range-display {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .booked-slot {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .card{
+            background-color: #00cff4;
+        }
