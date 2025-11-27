@@ -13,8 +13,8 @@ return new class extends Migration
             $table->string('nama');
             $table->string('nomer_hp');
             $table->date('tanggal_booking');
-            $table->string('jam_mulai'); // Format: 00, 01, 02, ..., 23
-            $table->string('jam_akhir');  // Format: 00, 01, 02, ..., 23
+            $table->string('jam_mulai');
+            $table->string('jam_akhir'); 
             $table->timestamps();
         });
     }

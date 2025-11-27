@@ -13,9 +13,6 @@ class BookingController extends Controller
         return view('booking');
     }
 
-    /**
-     * Menyimpan data booking
-     */
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -64,7 +61,7 @@ class BookingController extends Controller
             'jam_akhir' => $request->jam_akhir
         ]);
 
-        return redirect('/')->with('success', 'Booking Sukses');
+        return redirect('/payment')->with('success', 'Booking Sukses');
     }
 
     public function getBookedRanges($date)

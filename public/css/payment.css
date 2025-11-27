@@ -1,0 +1,19 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.qris {
+    max-width: 300px;
+}
+
+.container{
+    border-color: #1DB954;
+    border-style: double;
+}
