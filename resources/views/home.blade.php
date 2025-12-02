@@ -30,31 +30,36 @@
         </div>
     </div>
         <div class="row justify-content-between p-4 mt-5 my-centered-block mx-auto">
-            <a href="/booking" class="text-decoration-none block">
-            <div class="text-center">
-                <p class="my-3 prod-name">Lampung Walk</p>
-                <img class="image" src="{{ asset('image/lwfutsal.png') }}">
-                <div class="price text-white">
-                    <h6 class="mb-0">120k/H</h6>
+            <a href="{{ route('booking.form', ['lapangan' => 'lampung-walk']) }}" class="text-decoration-none block">
+                <div class="text-center">
+                    <p class="my-3 prod-name">Lampung Walk</p>
+                    <img class="image" src="{{ asset('image/lwfutsal.png') }}">
+                    <div class="price text-white">
+                        <h6 class="mb-0">120k/H</h6>
+                    </div>
                 </div>
-            </div></a>
-            <a href="/booking" class="text-decoration-none block">
-            <div class="text-center">
-                <p class="my-3 prod-name">GOR Uin</p>
-                <img class="image" src="{{ asset('image/uin.png') }}">
-                <div class="price text-white">
-                    <h6 class="mb-0">150k/H</h6>
+            </a>
+
+            <a href="{{ route('booking.form', ['lapangan' => 'gor-uin']) }}" class="text-decoration-none block">
+                <div class="text-center">
+                    <p class="my-3 prod-name">GOR Uin</p>
+                    <img class="image" src="{{ asset('image/uin.png') }}">
+                    <div class="price text-white">
+                        <h6 class="mb-0">150k/H</h6>
+                    </div>
                 </div>
-            </div></a>
-            <a href="/booking" class="text-decoration-none block">
-            <div class="text-center">
-                <p class="my-3 prod-name">Twin Futsal</p>
-                <img class="image" src="{{ asset('image/twin.png') }}">
-                <div class="price text-white">
-                    <h6 class="mb-0">100k/H</h6>
+            </a>
+
+            <a href="{{ route('booking.form', ['lapangan' => 'twin-futsal']) }}" class="text-decoration-none block">
+                <div class="text-center">
+                    <p class="my-3 prod-name">Twin Futsal</p>
+                    <img class="image" src="{{ asset('image/twin.png') }}">
+                    <div class="price text-white">
+                        <h6 class="mb-0">100k/H</h6>
+                    </div>
                 </div>
-            </div></a>
-            <a href="/booking" class="text-decoration-none block">
+            </a>
+            <a href="{{ route('booking.form', ['lapangan' => 'ghinan-futsal']) }}" class="text-decoration-none block">
             <div class="text-center">
                 <p class="my-3 prod-name">Ghinan Futsal</p>
                 <img class="image" src="{{ asset('image/ghinan.png') }}">
@@ -65,7 +70,7 @@
         </div>
 
         <div class="row justify-content-between px-4 my-centered-block mx-auto">
-            <a href="/booking" class="text-decoration-none block">
+            <a href="{{ route('booking.form', ['lapangan' => 'lampung-futsal']) }}" class="text-decoration-none block">
             <div class="text-center">
                 <p class="my-3 prod-name">Lampung Futsal</p>
                 <img class="image" src="{{ asset('image/LF.png') }}">
@@ -73,7 +78,7 @@
                     <h6 class="mb-0">120k/H</h6>
                 </div>
             </div></a>
-            <a href="/booking" class="text-decoration-none block">
+            <a href="{{ route('booking.form', ['lapangan' => 'srikandi-futsal']) }}" class="text-decoration-none block">
             <div class="text-center">
                 <p class="my-3 prod-name">Srikandi Futsal</p>
                 <img class="image" src="{{ asset('image/srikandi.png') }}">
@@ -81,7 +86,7 @@
                     <h6 class="mb-0">100k/H</h6>
                 </div>
             </div></a>
-            <a href="/booking" class="text-decoration-none block">
+            <a href="{{ route('booking.form', ['lapangan' => 'raya-futsal']) }}" class="text-decoration-none block">
             <div class="text-center">
                 <p class="my-3 prod-name">Raya Futsal</p>
                 <img class="image" src="{{ asset('image/raya.png') }}">
@@ -89,7 +94,7 @@
                     <h6 class="mb-0">80k/H</h6>
                 </div>
             </div></a>
-            <a href="/booking" class="text-decoration-none block">
+            <a href="{{ route('booking.form', ['lapangan' => 'futsal-jempol']) }}" class="text-decoration-none block">
                 <div class="text-center">
                     <p class="my-3 prod-name">Futsal Jempol</p>
                     <img class="image" src="{{ asset('image/jempol.png') }}">

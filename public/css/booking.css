@@ -1,56 +1,94 @@
-        body {
-            color: #000;
-            overflow-x: hidden;
-            height: 100%;
-            background-repeat: no-repeat;
-        }
-        
-        .hour-option {
-            background-color: #ffffff;
-            padding: 10px;
-            border: 2px solid #000000;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s;
-            margin-bottom: 10px;
-        }
-        .hour-option:hover {
-            background-color: #f8f9fa;
-            border-color: #007bff;
-        }
-        .hour-option.selected {
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
-        .hour-option.disabled {
-            background-color: #ffe6e6;
-            color: #6c757d;
-            cursor: not-allowed;
-            border-color: #dc3545;
-        }
-        .hour-option.in-range {
-            background-color: #e6f7ff;
-            border-color: #007bff;
-            color: #007bff;
-        }
-        .range-display {
-            background-color: #f8f9fa;
-            border-radius: 5px;
-            padding: 15px;
-            margin-bottom: 20px;
-            text-align: center;
-            font-weight: bold;
-        }
-        .booked-slot {
-            background-color: #fff3cd;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            border-left: 4px solid #ffc107;
-        }
-        
-        .card{
-            background-color: #1DB954;
-        }
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-book {
+    background: #1DB954;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.btn-book:hover{
+    background: #189b46;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-view {
+    background: tomato;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.btn-view:hover{
+    background: rgb(212, 82, 59);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hour-option {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+.hour-option:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff;
+}
+
+.hour-option.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.hour-option.disabled {
+    background-color: #ffe6e6;
+    color: #6c757d;
+    cursor: not-allowed;
+    border-color: #dc3545;
+}
+
+.hour-option.in-range {
+    background-color: #e6f7ff;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.range-display {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.booked-slot {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 4px solid #ffc107;
+}
+
+.card {
+    border-color: #1DB954;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

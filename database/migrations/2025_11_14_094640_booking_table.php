@@ -15,8 +15,11 @@ return new class extends Migration
             $table->date('tanggal_booking');
             $table->string('jam_mulai');
             $table->string('jam_akhir'); 
+            $table->string('lapangan');
             $table->timestamps();
         });
+
+
     }
 
     public function down(): void

@@ -14,6 +14,7 @@ class Booking extends Model
         'nomer_hp', 
         'tanggal_booking',
         'jam_mulai',
-        'jam_akhir'
+        'jam_akhir',
+        'lapangan'
     ];
 }
